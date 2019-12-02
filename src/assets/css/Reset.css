@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*
+    操作列表按钮样式
+    add by xs in 2018-10-10
+*/
+
+.action-btn {
+    text-decoration: underline !important;
+    font-weight: 700;
+}
+
+.action-btn a {
+    margin-left: 5px;
+}
+
+
+
+.vxe-table .vxe-table--loading{
+background-color: rgba(255,255,255,0.8); 
+}
+.Table_tree_node{
+    cursor: pointer;
+}
+
+
+.vue-treeselect__option {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
